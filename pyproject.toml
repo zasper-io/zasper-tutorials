@@ -1,0 +1,22 @@
+[project]
+name = "zasper-tutorials"
+version = "0.1.0"
+description = "Notebooks for demoing and learning Zasper"
+requires-python = ">=3.11"
+dependencies = [
+    "basedpyright>=1.40.1",
+    "ipykernel",
+    "ipywidgets",
+    "jinja2>=3.1.6",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "plotly",
+    "tqdm",
+]
+
+[dependency-groups]
+dev = ["nbclient", "nbformat"]
+
+[tool.uv]
+package = false
