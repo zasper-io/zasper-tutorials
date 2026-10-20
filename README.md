@@ -6,6 +6,8 @@ Notebooks for learning [Zasper](https://zasper.io) and for demoing it.
 - `tutorials/`: self-paced lessons with explanations and exercises.
 - `examples/nyc_taxi.ipynb`: every New York yellow taxi trip in January 2024, queried with SQL cells.
   Its database is built, not stored: see [Data](#data).
+- `examples/deno-data-science.ipynb`: data science in TypeScript on the Deno kernel, with Polars and
+  Observable Plot.
 - `data/penguins.csv`: the [Palmer Penguins](https://allisonhorst.github.io/palmerpenguins/) dataset
   (CC0), used in all three languages.
 

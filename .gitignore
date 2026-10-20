@@ -2,7 +2,7 @@
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
-# Written by the Deno example notebook when it runs.
+# Written by examples/deno-data-science.ipynb when it runs.
 coffee_sales.csv
 # Built by examples/build_nyc_taxi_db.py: about 475 MB, too large for git.
 examples/nyc_taxi.db
