@@ -4,6 +4,8 @@ Notebooks for learning [Zasper](https://zasper.io) and for demoing it.
 
 - `live-talk/`: short notebooks for a live demo, one feature each.
 - `tutorials/`: self-paced lessons with explanations and exercises.
+- `examples/nyc_taxi.ipynb`: every New York yellow taxi trip in January 2024, queried with SQL cells.
+  Its database is built, not stored: see [Data](#data).
 - `data/penguins.csv`: the [Palmer Penguins](https://allisonhorst.github.io/palmerpenguins/) dataset
   (CC0), used in all three languages.
 
@@ -65,3 +67,11 @@ Cells tagged `demo-only` wait for you: an endless loop to interrupt, and an `inp
 `data/penguins.csv` is from the [palmerpenguins](https://github.com/allisonhorst/palmerpenguins)
 package by Allison Horst, Alison Hill and Kristen Gorman, released under
 [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+
+`examples/nyc_taxi.db` is built from the [TLC Trip Record
+Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) published by New York City's Taxi and
+Limousine Commission. It is about 475 MB, so it is not in the repository. Build it once:
+
+```sh
+uv run examples/build_nyc_taxi_db.py
+```
